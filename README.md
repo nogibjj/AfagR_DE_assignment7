@@ -11,9 +11,8 @@ This project demonstrates the creation of a simple multiplication tool using the
 - GitHub Actions: Used to automate the testing, building, and artifact uploading processes for the CI/CD pipeline.
 - Docker (if applicable): Can be used to containerize the application for easy deployment and scalability.
 
-# Getting Started
 
-## Prerequisites
+# Prerequisites
 
 To run this project locally, you need to have the following tools installed:
 
@@ -27,6 +26,10 @@ This project is equipped with a CI/CD pipeline using GitHub Actions, which autom
 
 - Testing: The project is tested automatically on each push.
 - Building: The code is compiled into a binary in release mode.
-- Artifact Upload: The generated binary is uploaded as an artifact, allowing users to download and run the compiled program.
 
+
+
+## Binary artifact
+
+- Artifact Upload: The generated binary can be found in teh actions tab of the repository, inside the upload binary step of the yml file. You can download it and use that.
 
